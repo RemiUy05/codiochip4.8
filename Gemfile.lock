@@ -100,9 +100,6 @@ GEM
     connection_pool (2.5.4)
     crass (1.0.6)
     date (3.4.1)
-    debug (1.11.0)
-      irb (~> 1.10)
-      reline (>= 0.3.8)
     drb (2.2.3)
     erb (5.0.2)
     erubi (1.13.1)
@@ -163,6 +160,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.10-x86_64-linux-musl)
       racc (~> 1.4)
+    pg (1.6.0.rc1)
+    pg (1.6.0.rc1-x86_64-linux)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -280,9 +279,9 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
-  debug
   importmap-rails
   jbuilder
+  pg (= 1.6.0.rc1)
   puma (>= 5.0)
   rails (~> 7.1.5)
   selenium-webdriver
